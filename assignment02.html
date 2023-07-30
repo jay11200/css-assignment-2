@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment | css</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .cointainer{
+            width: 95%;
+            height: inherit;
+            margin: 0% auto;
+            padding: 50px;
+            background-color:rgb(216, 229, 234);
+        }
+        .cointainer .title{
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .cointainer .question1 .answer1{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question2 .answer2{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question3 .answer3{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question3 .answer3 table{
+            margin: 0% auto;
+            height: 600px;
+        }
+        .cointainer .question4 .answer4{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question5 .answer5{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question6 .answer6{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question7 .answer7{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question8 .answer8{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question8 .answer8 table{
+            text-align: center;
+        }
+        .cointainer .question9 .answer9{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question9 .answer9 table{
+            text-align: center;
+        }
+        .cointainer .question10 .answer10{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question11 .answer11{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question12 .answer12{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question13 .answer13{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question14 .answer14{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question15 .answer15{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question16 .answer16{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question16 .answer16 table th{
+            font-size: x-large;
+        }
+        .cointainer .question17 .answer17{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question17 .answer17 p {
+            font-size: larger;
+        }
+        .cointainer .question18 .answer18{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question19 .answer19{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .cointainer .question20 img{
+            width: 300px;
+            margin: 5% auto;
+            height: 150px;
+        }
+        .cointainer .question20 img:hover{
+            transform: scale(3);
+        }
+        .cointainer .question20 .answer20{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }     
+        .cointainer .question20 .answer20 .main{
+            background-color:aliceblue;
+            width: 90%;
+            height: 650px;
+            margin: 2% auto;
+            padding-top: 4px;
+        }
+        .cointain{
+            width: 80%;
+            margin: 5% auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .cointain .box{
+            width: 31%;
+        }
+        .cointain .box .thumb{
+            height: 150px;
+            width: 100%;
+            color: aliceblue;
+            background-color:  gray;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .cointain .box .des{
+            background-color: whitesmoke;
+            height: inherit;
+            width: 100%;
+            padding: 6px;
+        }
+        .cointain .box .des a{
+            text-decoration: none;
+            outline-width: 3px;
+            outline-style: solid;
+            outline-color: black;
+            padding: 1px;
+            color: black;
+        }
+        .wrapper{
+            width: 80%;
+            margin: 5%auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .wrapper .box1{
+            width: 31%;
+        }
+        .wrapper .box1 .thumb{
+            height: 150px;
+            width: 100%;
+            color: aliceblue;
+            background-color:  gray;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .wrapper .box1 .des{
+            background-color: whitesmoke;
+            height: inherit;
+            width: 100%;
+            padding: 6px;
+        }
+        .wrapper .box1 .des a{
+            text-decoration: none;
+            outline-width: 3px;
+            outline-style: solid;
+            outline-color: black;
+            padding: 1px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+      <div class="cointainer">
+        <div class="title">
+              <h1><b> Assignment-2(CSS and CSS 3) </b></h1>
+        </div>
+        <div class="question1"> 
+               <h2> 1--What are the benefits of using CSS? </h2>
+            <div class="answer1">
+                <h4> &#8618;<br> Benifits of CSS:</h4><br><p>1-CSS plays an important role, by using CSS you simply got to specify a repeated style for element once & use it multiple times as because CSS will automatically apply the required styles.</p><br><p>2-The main advantage of CSS is that style is applied consistently across variety of sites. One instruction can control several areas which is advantageous.</p><br><p>3-Web designers needs to use few lines of programming for every page improving site speed.</p><br><p>4-Cascading sheet not only simplifies website development, but also simplifies the maintenance as a change of one line of code affects the whole web site and maintenance time.</p><br><p>5-CSS changes are device friendly. With people employing a batch of various range of smart devices to access websites over the web, there’s a requirement for responsive web design.</p><br><p>6-It is less complex therefore the effort are significantly reduced</p>
+            </div>
+        </div>
+        <div class="question2">
+            <h2> 2--what are the disadvantages of CSS? </h2>
+            <div class="answer2">
+                <h4> &#8618;<br> Disadvantages of CSS:</h4><br><p>1-CSS, CSS 1 up to CSS3, result in creating of confusion among  web browsers.</p><br><p>2-With CSS, what works with one browser might not always work with another. The web developers need to test for compatibility, running the program across multiple browsers.</p><br><p>3-After making the changes we need to confirm the compatibility if they appear. The similar change affects on all the browsers.</p><br><p>4-There might be cross-browser issues while using CSS.</p><br><p>5-There are multiple levels which creates confusion for non-developers and beginners.</p>
+            </div>
+        </div>
+        <div class="question3">
+                <h2> 3-- What is the difference between CSS2 and CSS3? </h2>
+                <div class="answer3">
+                    <h4> &#8618;<br> Difference between CSS2 and CSS3 </h4><br>
+                    <table border="1" cellspacing="0" width="560px" >
+                        <tr>
+                            <th>Sr.no</th>
+                            <th> CSS2 </th>
+                            <th> CSS3 </th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td> CSS was developed in 1996. </td>
+                            <td> CSS3 is the latest version of CSS and was released in 2005. </td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>CSS is capable of positioning texts and objects. </td>
+                            <td>On the other hand, CSS3 is capable of making the web page more attractive and takes less time to create. CSS3 is backward compatible with CSS.</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>Responsive designing is not supported in CSS</td>
+                            <td>CSS3 is the latest version, hence it supports responsive design.</td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td>Using CSS, we cannot build 3D animation and transformation.</td>
+                            <td>But in CSS3 we can perform all kinds of animation and transformations as it supports animation and 3D transformations.</td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td>In CSS we have set of standard colors and it uses basic color schemes only.</td>
+                            <td>Whereas CSS3 has a good collection of HSL RGBA, HSLA, and gradient colors.</td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td>CSS does not support media queries.</td>
+                            <td>But CSS3 supports media queries</td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td>In CSS, designers have to manually develop rounded gradients and corners.</td>
+                            <td>But CSS3 provides advanced codes for setting rounded gradients and corners</td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+        <div class="question4">
+            <h2> 4--Name a few CSS style components </h2>
+            <div class="answer4">
+                <h4> &#8618;<br> A few CSS style components include Property, Value, and Selector </h4><br>
+                <p><b>Selector</b>- A selector is an HTML tag at which a style will be applied. This could be any tag like &lt;h1&gt; or &lt;table&gt; etc. Property - A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border etc. Value - Values assigned to properties.</p><br>
+                <p><b>value</b>- CSS component value is a term used to describe the values that are allowed for a CSS property.Component values are separated by commas to indicate alternatives.A component value can be a keyword, a literal, or a value of a CSS data type or another property.  </p><br>
+                <p><b>property</b>- The selector is used to point to the HTML component which you want to get styled. Inside the declaration block, one or more declarations are contained along with semicolons. Every declaration which is put has a CSS property name, a semicolon, and a value</p>
+            </div>
+        </div>
+        <div class="question5">
+            <h2> 5-- What do you understand by CSS opacity?</h2>
+            <div class="answer5">
+                <h4> &#8618;<br> The CSS opacity property makes elements see-through, or transparent. </h4><br> 
+                <p>The value of the opacity property ranges between 0 and 1. The lower the value of the opacity property, the more transparent an element will appear. So, a value of 0 would make an element fully opaque or fully transparent, and a value of 1 would make an element appear as normal.</p>
+                <br>
+                <p align="center"> Here’s the syntax for the CSS opacity property:
+                    <br><b>&#8618;img { opacity: 0.5; }</b></p> 
+        </div>
+        </div>
+        <div class="question6">
+            <h2> 6--How can the background color of an element be changed</h2>
+            <div class="answer6">
+                <h4> &#8618;<br>The ''background-color'' property accepts colors as possible values. </h4><br> 
+                <p>1->The first will be color names, and there are around 140 keywords that you can use. This is the easiest way to choose a color as it doesn't require understanding special notations – but it has a limited range of options.</p>
+                <br><br>
+                <p>2->The second and third ways to name or choose colors are RGB values and hexadecimal values. In these notations, colors are identified by the amount of red, green, and blue that they contain.</p>
+                <br><br>
+                <p>3->This comes from how a screen produces color. A screen is made of pixels, and each pixel is lighted by LEDs of three different colors, green, blue and red, that can shine at different intensities.</p>
+            </div>
+        </div>
+        <div class="question7">
+            <h2> 7--How can image repetition of the backup be controlled? </h2>
+            <div class="answer7"><p> <b>&#8618;</b><br>->1 The background-repeat property in   CSS is used to repeat the background image both horizontally and vertically.  </p><br>  
+            <p>->2 By default, a background-image is repeated both vertically and horizontally. Tip: The background image is placed according to the background-position property. If no background-position is specified, the image is always placed at the element’s top left corner.</p>
+            </div>
+         </div>
+        <div class="question8">
+            <h2> 8--What is the use of the background-position property? </h2>
+            <div class="answer8"> <h4> &#8618;<br>The CSS background-position property specifies the starting position of a background-image.</h4><br>
+            <p>a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.</p><br>
+            <p>
+               <b> CSS Syntax<br>&#8618;
+                background-position: value;
+            </p><br><br>
+            <p>
+                Property Values <br></b><br>
+
+                <table border="1" cellspacing="0" >
+                <tr>
+                    <th>VALUES</th>
+                    <th>NOTE</th>
+                </tr>
+                <tr>
+                    <td>left top</td>
+                        <td rowspan="9"> If you only specify one keyword,<br> the other value will be "center"</td>
+                 </tr>
+                 <tr>
+                    <td>left center</td>
+                  </tr>
+                <tr>
+                    <td>left bottom</td>
+                </tr>
+                <tr>
+                    <td>right top</td>
+                </tr>
+                <tr>
+                    <td>right center</td>
+                </tr>
+                <tr>
+                    <td>right bottom</td>
+                </tr>
+                <tr>
+                    <td>center top</td>
+                </tr>
+                <tr>
+                    <td>center center</td>
+                </tr>
+                 <tr>
+                    <td>center bottom</td>
+                </tr>	
+                </table>
+            </p>
+        </div>
+
+        </div>
+        <div class="question9">         
+           <h2> 9-- Which property controls the image scroll in the background? </h2>
+           <div class="answer9"><h4> &#8618;<br>The CSS background-position property specifies the starting position of a background-image.</h4><br>
+            <p>
+               <b> CSS Syntax<br><br>&#8618;
+                background-attachment:scroll|fixed|local|initial|inherit;
+            </p><br><br>
+            <p>
+                Property Values <br></b>
+
+                <table border="2" cellspacing="0"  >
+                <tr>
+                    <th>VALUES</th>
+                    <th>description</th>
+                </tr>              	
+                <tr>
+                    <td>scroll</td>
+                        <td> The background image will scroll with the page. This is default</td>
+                 </tr>
+                 <tr>
+                    <td> fixed</td>
+                    <td>The background image will not scroll with the page</td>
+                  </tr>
+                <tr>
+                    <td>local</td>
+                    <td>The background image will scroll with the element's contents</td>
+                </tr>
+                <tr>
+                    <td>initial</td>
+                    <td>Sets this property to its default value. Read about initial</td>
+                </tr>
+                <tr>
+                    <td> inherit</td>
+                    <td>Inherits this property from its parent element. Read about inherit</td>
+                </tr>
+                </table>
+         </div>
+        </div>
+        <div class="question10">           
+            <h2> 10--Why should background and color be used as separate properties? </h2>
+            <div class="answer10">
+                <h4> &#8618;<br>The CSS background- </h4><p>The background (without -color) property can be used to set all the background properties for an element in one declaration. For example, you might want to add both a background color, an image that is displayed once (no-repeat), and an image position to an element in one single declaration, like this: <br><br><br>
+                  <b>
+                  <i>&#8618;background: #444 url("image.jpg) no-repeat left top;<br><br><br>
+                    &#8618;The above could also be written as such: <br><br>
+
+                    &#8618;background-image: url(“url/image.jpg”);<br>
+                  
+                    &#8618;background-repeat: no-repeat;<br>
+                  
+                    &#8618; background-position-x: left;<br>
+                  
+                    &#8618;background-position-y: top;<br>
+                  
+                    &#8618;background-color: #444;</i></b></p> <br>
+             </div>
+        </div>
+        <div class="question11">
+            <h2> 11--How to center block elements using CSS1? </h2>
+            <div class="answer11">  
+                <h4> &#8618; BLOCK</h4><p>The “blocks” are known for taking full line space, forcing other elements to start on a new line. In other words, they have a width of 100% of the webpage or container holding the block. </p><br><br>
+                <P><b>&#8618;How to center these block elements: </b> we observe that as they take full line width, to center them we only have the margin property that is controlling them horizontally. <br><br>
+
+                <b> &#8618;</b>The margin can control the position of the block element both horizontally and vertically. To center them, we can adjust the margin property such that it is placed in the center. <br><br>
+       
+                <b>&#8618;</b>Center block elements using margin property: We need to specify the margin from left and right such that it looks centered. We do not need to do this manually, we have one property value “auto” which will automatically set the margin such that our block element is placed in the center. Use the below CSS property to center your block element.</P>
+            </div>
+        </div>
+        <div class="question12">
+            <h2> 12--How to maintain the CSS specifications? </h2>
+            <div class="answer12">
+                <h4> &#8618;<br>To maintain CSS specifications, you should:</h4><br>
+                <li>Keep things consistent.</li><br>
+                <li>  Format CSS in a readable way.<br><br>
+                <li>  Comment your CSS.<br><br>
+                <li>   Create logical sections in your stylesheet.<br><br>
+                <li>  Avoid overly-specific selectors.<br><br>
+                <li>  Break large stylesheets into multiple smaller ones.<br><br>
+                <li>  Keep all global styles in a separate file.<br><br>
+                <li>  Keep styles of components (pages, layouts) in isolation all <br><br>
+                <li>  Keep the same name across the javascript    file name, component name, style file name, and style class name.<br><br>
+            </div>
+        </div>
+        <div class="question13">
+            <h2> 13--What are the ways to integrate CSS as a web page? </h2>
+            <div class="answer13">
+                <h4> &#8618;<br>There are several ways to integrate CSS in a web page:</h4> 
+                     <br><br>
+                <li>Declare inline: Use the style attribute in the HTML start tag. </li><br> <br>
+                <li>Embed into the head of your document: Use the &lt;style> element in the head section of a document. <br> <br></li>
+                <li>Link to an external CSS file: Use the &lt;link> element, pointing to an external CSS file.<br> <br></li>
+                <li>Import a CSS file: Use the @import rule to import an external CSS file into another CSS file.1
+
+            </div>
+        </div>
+        <div class="question14">
+            <h2> 14--What is embedded style sheets? </h2>
+            <div class="answer14"> 
+                <h4> &#8618;<br>what is stylesheet  </h4> <br>
+                CSS stylesheets are used to describe the presentation of a document written in HTML. It provides color, layout, background, font, and border properties while also allowing better content accessibility, enhanced flexibility, and control, as well as the specification of the characteristics of presentation. CSS stylesheets can be applied to an HTML document in 3 ways – inline styles, embedded stylesheet, and external stylesheet.
+                       <br><br>
+                <b>Embedded Stylesheet:</b> It allows you to define styles for a particular HTML document as a whole in one place. This is done by embedding the &lt;style> &lt;/style>
+            </div>
+        </div>
+        <div class="question15">
+            <h2> 15--What are the external style sheets? </h2>
+            <div class="answer15"> 
+                <h4> &#8618;<br>External style sheet </h4><br> external style sheet is a separate file that contains CSS rules that can be linked to an HTML document using the HTML &lt;link> tag. This allows you to define styles for multiple web pages in one place and apply them across your website. You can create an external style sheet in a text or code editor just like the HTML document and save it with a .css extension. The link tag will let the HTML file know what it is looking for and where it is
+            </div>
+        </div>
+        <div class="question16">
+            <h2> 16--What are the advantages and disadvantages of using external style sheets? </h2>
+            <div class="answer16"> 
+                <h4> &#8618;<br>External style sheets have several advantages and disadvantages. The advantages of using external style sheets are: </h4><br>  
+                <table border="4" cellspacing="0">
+                    <tr>
+                        <th>Advantages</th>
+                        <th>Disadvantages</th>
+                    </tr>
+                    <tr>
+                        <td>Using them, the styles of multiple documents can be controlled from one file.
+                        </td>
+                        <td>They require an additional HTTP request to load the CSS file.</td>
+                    </tr>
+                    <tr>
+                        <td>Classes can be created for use on multiple HTML element types in many documents.</td>
+                        <td>They may not be cached by the browser, which means that the user may have to download the CSS file each time they visit a new page on your site.</td>
+                    </tr>
+                    <tr>
+                        <td>In complex situations, selector and grouping methods can be used to apply styles.</td>
+                        <td>If the external style sheet is not available, your page will be displayed without any styling.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="question17">
+            <h2> 17-- What is the meaning of the CSS selector? </h2>
+            <div class="answer17">
+               <h4> &#8618; <br>CSS Selectors   </h4><br>  
+                <b>CSS selectors are used to "find" (or select) the HTML elements you want to style.</b><br><br>
+                <p><i> We can divide CSS selectors into five categories: </i>
+                  <br><br>
+                <li>Simple selectors (select elements based on name, id, class)</li>
+                <li>   Combinator selectors (select elements based on a specific relationship between them)</li>
+                <li> Pseudo-class selectors (select elements based on a certain state)</li>
+                <li>  Pseudo-elements selectors (select and style a part of an element)</li>
+                 <li> Attribute selectors (select elements based on an attribute or attribute value)</li></p>
+            </div>
+        </div>
+        <div class="question18">
+            <h2> 18--What are the media types allowed by CSS? </h2>
+            <div class="answer18">
+                <h4> &#8618; <br>  CSS allows you to specify different styles for different media types. The media types allowed by CSS are:  </h4>
+                <br><br><br>
+                <li><b>all:</b>Suitable for all devices.</li><br>
+                <li> <b> print: </b>Intended for paged material and documents viewed   on a screen in print preview mode.</li><br>
+                <li> <b> screen: </b>Intended primarily for screens.</li><br>
+                <li> You can use the CSS<b> @media </b>rule to create media  queries that test for certain media types, then apply styles accordingly</li><br>
+            </div>
+        </div>
+        <div class="question19">
+            <h2> 19--What is the rule set? </h2>
+            <div class="answer19"> 
+                <h4> &#8618; <br> CSS RULE SET</h4><br>
+                <p>A CSS rule set consists of a selector and a declaration block. The selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons. Each declaration includes a CSS property name and a value, separated by a colon. Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces1.</p>
+                            <br>
+                <h3>Here’s an example:</h3>
+                     <br><li> 
+                    p {<br>
+                    color: red;<br>
+                    text-align: center;<br>
+                    } <br>
+                <br></li>
+                <p><b>In this example all &lt;p> elements will be center-aligned, with a red text color</b></p>
+            </div>
+        </div>
+        <div class="question20">
+            <h2> 20--Create Layouts <br>
+               <center> <img src="https://i.stack.imgur.com/dnenI.jpg"alt=""></h2></center>
+            <div class="answer20">
+                <h4> &#8618; <br> OUTPUT </h4><br>
+
+                <div class="main">
+                    <div class="cointain">
+                        <div class="box"> 
+                            <div class="thumb">
+                            Thumbnail
+                            </div>
+                            <div class="des">
+                                <p>a Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto, dolore delectus molestias </p><br>
+                                <a href="">edit</a>
+                                <a href="">view</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="thumb">
+                                Thumbnail
+                             </div>
+                             <div class="des">
+                                <p>aLorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto, dolore delectus molestias </p><br>
+                                <a href="">edit</a>
+                                <a href="">view</a>
+                             </div>
+                        </div>
+                        <div class="box">
+                            <div class="thumb">
+                                Thumbnail
+                             </div>
+                             <div class="des">
+                                <p>aLorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto, dolore delectus molestias </p><br>
+                                <a href="">edit</a>
+                                <a href="">view</a>
+                             </div>
+                        </div>
+                    </div>    
+                    <div class="wrapper">    
+                        <div class="box1">
+                            <div class="thumb">
+                                Thumbnail
+                             </div>
+                             <div class="des">
+                                <p>aLorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto, dolore delectus molestias </p><br>
+                                <a href="">edit</a>
+                                <a href="">view</a>
+                             </div>
+                        </div>
+                        <div class="box1">
+                            <div class="thumb">
+                                Thumbnail
+                             </div>
+                             <div class="des">
+                                <p>aLorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto, dolore delectus molestias</p> <br>
+                                <a href="">edit</a>
+                                <a href="">view</a>
+                             </div>
+                        </div>
+                        <div class="box1">
+                            <div class="thumb">
+                                Thumbnail
+                             </div>
+                             <div class="des">
+                               <p>a Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto, dolore delectus molestias</p> <br>
+                                <a href="">edit</a>
+                                <a href="">view</a>
+                             </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
